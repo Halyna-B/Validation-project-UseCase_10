@@ -1,0 +1,1 @@
+export { RegexValidator } from './RegexValidator';
