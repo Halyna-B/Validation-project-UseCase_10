@@ -1,0 +1,92 @@
+Hello GPT-4. I Need your help with use case - Compose regular expressions to search, match, or manipulate text within a string. Define a sequence of characters, metacharacters, and quantifiers that represent the desired pattern, while considering case sensitivity and whitespace. Adjust and optimize the regular expression. Implement it within the code to perform the desired text processing task, such as searching, validating, extracting, or replacing text.  I need to use the next tools: JavaScript (ES6+) , React 18.x . So I'll ask you to help me step by step.
+So my first step:
+Create a new Git repository on GitHub. Use the main branch for your commits. Make sure to make first commit C#1 with Readme.md file.  Add commit message “UC#10 Start”.
+
+ChatGPT
+Certainly! Let's start with your first step: Creating a new Git repository on GitHub and making your first commit.
+
+Step 1: Create a new Git repository on GitHub
+
+Go to GitHub.
+Log in to your account or sign up for a new one if you haven't.
+Click on the + icon in the top right corner, then choose "New repository."
+Give your repository a name, for example, "regex-use-case".
+Choose whether you want your repository to be public (everyone can see) or private (only you can see).
+Initialize the repository with a README by checking the checkbox "Initialize this repository with a README."
+Click "Create repository."
+Step 2: Clone the Repository
+
+Open your terminal or command prompt and navigate to the directory where you want your project to be. Then, clone your newly created repository:
+
+bash
+Copy code
+git clone https://github.com/YOUR_USERNAME/regex-use-case.git
+cd regex-use-case
+Step 3: Make Your First Commit
+
+Your repository should already have a README.md file since you initialized it with one. To make your first commit with the commit message "UC#10 Start", do the following:
+
+bash
+Copy code
+git add README.md
+git commit -m "UC#10 Start"
+git push origin main
+That's it! You have now created a new Git repository on GitHub, cloned it, and made your first commit with the desired commit message.
+
+In the next steps, we'll move into creating the necessary setup with JavaScript (ES6+) and React 18.x and work on the regular expressions. Let me know when you're ready to proceed, and I'll assist you with the next steps.
+
+The next step:
+Install the latest version of `Node JS` and `npm.` Or update to the latest in case you have one.
+
+Create a project directory with YourProjectName
+
+Install ` create-react-app ` using `npm.`
+
+Generate new React application by running ` npx create-react-app `
+
+ChatGPT
+Alright, let's proceed step by step.
+
+Step 1: Install/Update Node.js and npm
+
+Install Node.js and npm: If you don’t have Node.js installed, you can download the installer from Node.js official website. It will include both node and npm.
+
+Update Node.js and npm: If you already have them installed, you can update to the latest version:
+
+a. For Node:
+
+bash
+Copy code
+nvm install node  # This will install the latest version of Node
+b. For npm:
+
+bash
+Copy code
+npm install npm@latest -g
+Step 2: Create Project Directory
+
+Navigate to where you want your project to reside and create a directory named "YourProjectName".
+
+bash
+Copy code
+mkdir YourProjectName
+cd YourProjectName
+Step 3: Install create-react-app
+
+You don't actually need to globally install create-react-app anymore because you'll be using npx, which is included with npm 5.2+ and higher. npx will temporarily download the latest version of create-react-app to generate the new application without having to globally install it.
+
+Step 4: Generate New React Application
+
+Still inside the "YourProjectName" directory, run:
+
+bash
+Copy code
+npx create-react-app .
+The . at the end tells create-react-app to create the new React app in the current directory, rather than creating a new folder. If you'd prefer it to be in a new folder (with the name of the app), you can replace the . with the desired name, like so:
+
+bash
+Copy code
+npx create-react-app app-name
+Once this process is complete, you'll have a new React application ready to go inside the "YourProjectName" directory.
+
+Let me know once this is done, and we can move on to the next step or address any questions you may have.
